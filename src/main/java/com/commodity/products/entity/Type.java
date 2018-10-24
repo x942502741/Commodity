@@ -17,9 +17,7 @@ public class Type implements Serializable {
     private String tBig;
     
     private String tSmall;
-    
-    private String pId;
-    
+
     private Date updateTime;
     
     private Date createTime;
@@ -47,14 +45,6 @@ public class Type implements Serializable {
 
     public void setTSmall(String tSmall) {
         this.tSmall = tSmall;
-    }
-
-    public String getPId() {
-        return pId;
-    }
-
-    public void setPId(String pId) {
-        this.pId = pId;
     }
 
     public Date getUpdateTime() {
